@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="depositphotos_214579180-stock-illustration-calculator-vector-icon-isolated-transparent.jpg" />
+    <None Remove="elden-ring-banner-1.jpg" />
+    <None Remove="netflix-symbol-black.png" />
+    <None Remove="png-transparent-calculator-computer-icons-math-electronics-text-logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="depositphotos_214579180-stock-illustration-calculator-vector-icon-isolated-transparent.jpg" />
+    <Resource Include="elden-ring-banner-1.jpg" />
+    <Resource Include="netflix-symbol-black.png" />
+    <Resource Include="png-transparent-calculator-computer-icons-math-electronics-text-logo.png" />
+  </ItemGroup>
+
+</Project>
